@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.main {
+    display: flex;
+}
+.top_menu {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.top_info {
+    max-width: 510px;
+}
+
+.parag {
+    font-size: 16px;
+    line-height: 26px;
+    color: #1f3f68;
+}
+.text_after_header_1 {
+    max-width: 425px;
+}
+.header_1{
+    font-size: 64px;
+    color: #1F3F68;
+    width: 510px;
+}
+.header_2{
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+}
+.header_3{
+    font-size: 36px;
+    text-align: center;
+}
+.header_4{
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+}
+
+.columns{
+    display: flex;
+    justify-content: space-between;
+}
+.contacts_info_list {
+    list-style-type: none;
+}
+.offers_items{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.offers_item{
+    max-width: 359px;
+}
+.input-text{
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+}
+.button-submit {
+    background: #5A98D0;
+    box-shadow: 5px 20 px 50 px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.bottom {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.footer__header {
+    width: 340px;
+}
+.cooperation_offer {
+    max-width: 495px;
+}
+.bottom_info {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
