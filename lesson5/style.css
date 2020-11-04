@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-    max-width: 1100px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 
@@ -74,8 +74,43 @@ body {
 
 .projects {}
 
-.projects__img {
+.projects__item {
+    position: relative;
+    flex-grow: 1;
+}
+
+.projects__item_margin {
+    margin-right: 32px;
+}
+
+.project__text_one_img {
+    position: absolute;
+    top: 64px;
+    right: 64px;
+}
+
+.project__text_two_img {
+    position: absolute;
+    top: 32px;
+    left: 32px;
+}
+
+.project__img {
     width: 100%;
+}
+
+.project__text {
+    font-size: 32px;
+    line-height: 46px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.project__parent {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
 }
 
 .top__botton {
@@ -177,10 +212,6 @@ body {
     text-transform: uppercase;
 }
 
-.bottom {
-    max-width: 1100px;
-    margin: 0 auto;
-}
 .footer__header {
     width: 340px;
 }
