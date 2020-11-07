@@ -81,6 +81,7 @@ body {
 
 .projects__item_margin {
     margin-right: 32px;
+    font-size: 28px;
 }
 
 .project__text_one_img {
@@ -212,14 +213,91 @@ body {
     text-transform: uppercase;
 }
 
-.footer__header {
-    width: 340px;
+.footer {
+    margin-top: 112px;
+    padding-top: 91px;
+    padding-bottom: 64px;
+    background: #316099;
 }
-.cooperation_offer {
-    max-width: 495px;
-}
-.bottom_info {
+
+.footer__top {
+    padding-bottom: 96px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.cooperation_offer {
+    width: 495px;
+}
+
+.footer__header {
+    width: 340px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+.footer__hr {
+    opacity: 0.4;
+    border: 1px solid #FFFFFF;
+}
+
+.footer__text {
+    color: #FFFFFF;
+}
+
+.footer__button {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #5A98D0;
+    text-decoration: none;
+    padding: 15px 80px;
+}
+
+.footer__bottom {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.footer__info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts_text {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
     list-style-type: none;
+    flex-grow: 1;
+    flex-basis: 33.3333%;
+    display: flex;
+    margin-right: 32px;
+}
+
+.contacts_text:first-child::before {
+    content: 'A.';
+    display: block;
+    margin-right: 16px;
+}
+
+.contacts_text:nth-child(2n)::before {
+    content: 'T.';
+    display: block;
+    margin-right: 16px;
+}
+
+.contacts_text:nth-child(3n)::before {
+    content: 'E.';
+    display: block;
+    margin-right: 16px;
+}
+
+.footer__all_rights {
+    padding-top: 64px;
 }
